@@ -28,7 +28,7 @@
 %% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
 
 % Change the page layout if you need to
-\geometry{left=1.0cm,right=13cm,marginparwidth=11.5cm,marginparsep=0.7cm,top=1.0cm,bottom=1.25cm}
+\geometry{left=0.5cm,right=12.5cm,marginparwidth=11.5cm,marginparsep=0.7cm,top=1.0cm,bottom=1.25cm}
 
 % Change the font if you want to, depending on whether
 % you're using pdflatex or xelatex/lualatex
@@ -42,6 +42,7 @@
   \usepackage[default]{lato}
 \fi
 \usepackage{hyperref}
+\usepackage{multicol}
 
 % Change the colours if you want to
 \definecolor{VividPurple}{HTML}{000000}
@@ -71,7 +72,7 @@
   \email{noor.buchi@gmail.com}
   \phone{412-517-2850}
   %  \mailaddress{Address, Street, 00000 County}
-  %   \location{Pittsburgh, PA}
+  \location{Pittsburgh, PA}
   \homepage{\href{https://noorbuchi.netlify.app/}{noorbuchi.netlify.app}}
   %  \twitter{@marissamayer}
   \github{\href{https://github.com/noorbuchi}{github.com/noorbuchi}}
@@ -97,60 +98,84 @@
 \cvsection[page1sidebar]{Education}
 \cvevent{Allegheny College}{Bachelor of Science in Computer Science}{Aug 2018--May 2022}{Meadville, PA}
 \begin{itemize}
-  \item \textbf{GPA}: 4.00/4.00
-  \item \textbf{Minor}: Political Science
-  \item \textbf{Related Coursework}:\\ Computational Expression, Data
-        Abstraction, \\ Software Engineering, Algorithm Analysis, \\ Programming
-        Languages, Cloud Computing, Software Innovation, Calculus II, Introduction to
-        Statistics, Vector Calculus, Cryptocurrency Engineering, Game Development
-\end{itemize}
+  \item \textbf{Graduation Honors}: \emph{Summa Cum Laude}  \& Phi Beta Kappa Honor Society
+  \item \textbf{Major GPA}: 4.00/4.00
+  \item \textbf{Cumulative GPA}: 3.989/4.00
+  \item \textbf{Minors}: Mathematics \& Political Science
+  \item \textbf{Related Coursework}:
+        \begin{center}
+          \begin{tabular}{l l}
+            Computational Expression   & Data Abstraction        \\
+            Software Engineering       & Cloud Computing         \\
+            Programming Languages      & Algorithm Analysis      \\
+            Computer Organization      & Web Development         \\
+            Linear Algebra             & Artificial Intelligence \\
+            Cryptocurrency Engineering & Database Systems        \\
+            % Data Analytics                & Vector Calculus         \\
+            % Introduction to Statistics    & Game Development        \\
+            % Software Innovation           & Calculus II             \\
+            % Optimization \& Approximation &                         \\
+          \end{tabular}
 
+        \end{center}
+
+\end{itemize}
 \cvsection{Honors \& Awards}
-\cvevent{Distinguished Alden Scholar}{}{2019 - 2021}{}
+\cvexperience{Distinguished Alden Scholar}{2019 - 2022}{}{}
 \begin{itemize}
   \item Academic honor for maintaining a 3.80 or higher GPA.
 \end{itemize}
-\smallskip
-\cvevent{Outstanding Junior Major Prize}{}{2020 - 2021}{}
+
+\cvexperience{Faculty Prize}{2021 - 2022}{}{}
+\begin{itemize}
+  \item Awarded for outstanding achievement in computer science as indicated by
+        performance and by contributions to the life of the Computer Science Department.
+\end{itemize}
+
+\cvexperience{Distinguished Alden Scholar}{2019 - 2022}{}{}
+\begin{itemize}
+  \item Academic honor for maintaining a 3.80 or higher GPA.
+\end{itemize}
+
+\cvexperience{Doane Scholar}{2019 - 2021}{}{}
+\begin{itemize}
+  \item Awarded to 30 students with the highest \\ cumulative averages in their respective classes.
+\end{itemize}
+
+\cvexperience{Outstanding Junior Prize}{2020 - 2021}{}{}
 \begin{itemize}
   \item Awarded for exceptional academic achievement, performance in the
         seminar, and contribution to the general life of the Computer Science \\
         Department
 \end{itemize}
-\smallskip
-\cvevent{Doane Scholar}{}{2019 - 2020}{}
-\begin{itemize}
-  \item Awarded to 30 students with the highest \\ cumulative averages in their respective classes.
-\end{itemize}
-\smallskip
-\cvevent{Trustee Scholarship}{}{2019}{}
+
+\cvexperience{Trustee Scholarship}{2019}{}{}
 \begin{itemize}
   \item Awarded to students who have balanced \\ academic excellence with other
         distinctive \\ activities while in high school.
 \end{itemize}
-\smallskip
+
 
 
 \cvsection{SKILLS}
 \cvevent{Programming Languages}{}{}{}
 \cvskill{Python}{4}
-\cvskill{Java}{3}
+\cvskill{JavaScript}{3}
+\cvskill{C/C++}{2}
+\cvskill{Java}{2}
 \cvskill{Go}{2}
-\cvskill{JavaScript}{2}
-\cvskill{Visual Basic}{2}
-\smallskip
-\smallskip
+\cvskill{Solidity}{1}
 \cvevent{Tools and Platforms}{}{}{}
 \begin{itemize}
-  \item HTML, CSS, ReactJS, Git, Pytest, AWS, Linux, Docker, JUnit, Bash, \LaTeX
-        %\smallskip
+  \item HTML, CSS, ReactJS, Git, Pytest, AWS, Linux, Docker, JUnit, Bash, SQL,
+        R, \LaTeX
+
 \end{itemize}
-\smallskip
 \cvevent{Soft Skills}{}{}{}
 \begin{itemize}
   \item Bilingual communication (English and Arabic), French (Intermediate),
-        detail-oriented, eager to learn, time management, teamwork, \\ problem-solving
-        %\smallskip
+        detail-oriented, eager to learn, time management, teamwork, problem-solving
+
 \end{itemize}
 
 
